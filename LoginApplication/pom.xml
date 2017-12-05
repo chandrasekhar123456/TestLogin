@@ -1,0 +1,103 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fits.application.loginapplication</groupId>
+  <artifactId>LoginApplication</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <name>LoginApplication with Maven Jboss</name>
+  <description>This project is used for Login with Maven</description>
+  
+  <repositories>
+   <repository>
+       <id>lib_id</id>
+       <url>C:\Users\cguntupalli\.m2\repository\org\jboss\javax\lib\lib-1.0\1.0</url>
+   </repository>
+</repositories>
+
+  <dependencies>
+		<!-- <dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.2</version>
+			<scope>provided</scope>
+		</dependency> -->
+
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jaxrs</artifactId>
+			<version>2.2.1.GA</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+		<dependency>
+		    <groupId>javax.servlet</groupId>
+		    <artifactId>javax.servlet-api</artifactId>
+		    <version>3.0.1</version>
+		    <scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.jboss.javax.lib</groupId>
+		    <artifactId>log4j-1.2.16</artifactId>
+		    <version>1.2.16</version>		    
+		    <scope>system</scope>
+		     <systemPath>C:\Users\cguntupalli\.m2\repository\org\jboss\javax\lib\log4j-1.2.16\1.2.16\log4j-1.2.16.jar</systemPath>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.jboss.javax.lib</groupId>
+		    <artifactId>ais-1.0</artifactId>
+		    <version>1.0</version>
+		    <scope>system</scope>
+		     <systemPath>C:\Users\cguntupalli\.m2\repository\org\jboss\javax\lib\lib-1.0\1.0\ais-1.0.jar</systemPath>
+		</dependency>
+		<dependency>
+		    <groupId>org.jboss.javax.lib</groupId>
+		    <artifactId>customerservice-1.0</artifactId>
+		    <version>1.0</version>
+		    <systemPath>C:\Users\cguntupalli\.m2\repository\org\jboss\javax\lib\lib-1.0\1.0\customerservice-1.0.jar</systemPath>
+		    <scope>system</scope>
+		</dependency>
+		<dependency>
+		    <groupId>org.jboss.javax.lib</groupId>
+		    <artifactId>fits-framework-1.0</artifactId>
+		    <version>1.0</version>
+		   <systemPath>C:\Users\cguntupalli\.m2\repository\org\jboss\javax\lib\lib-1.0\1.0\fits-framework-1.0.jar</systemPath>
+		    <scope>system</scope>
+		</dependency>
+		<dependency>
+		    <groupId>org.jboss.javax.lib</groupId>
+		    <artifactId>fits-util-1.0</artifactId>
+		    <version>1.0</version>
+		   <systemPath>C:\Users\cguntupalli\.m2\repository\org\jboss\javax\lib\lib-1.0\1.0\fits-util-1.0.jar</systemPath>
+		    <scope>system</scope>
+		</dependency>
+		<!-- <dependency>
+		    <groupId>org.jboss.javax.lib</groupId>
+		    <artifactId>j2ee-1.0</artifactId>
+		    <version>1.0</version>
+		    <systemPath>C:\Users\cguntupalli\.m2\repository\org\jboss\javax\lib\lib-1.0\1.0\j2ee-1.0.jar</systemPath>
+		    <scope>system</scope>
+		</dependency> -->
+		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+		<dependency>
+		    <groupId>com.google.code.gson</groupId>
+		    <artifactId>gson</artifactId>
+		    <version>2.8.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+		    <groupId>org.json</groupId>
+		    <artifactId>json</artifactId>
+		    <version>20171018</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.jboss.javax.lib</groupId>
+		    <artifactId>security-1.0</artifactId>
+		    <version>1.0</version>
+		    <systemPath>C:\Users\cguntupalli\.m2\repository\org\jboss\javax\lib\lib-1.0\1.0\security-1.0.jar</systemPath>
+		    <scope>system</scope>
+		</dependency>
+	</dependencies>
+</project>
